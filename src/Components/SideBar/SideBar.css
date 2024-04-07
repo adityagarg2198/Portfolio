@@ -1,0 +1,49 @@
+.sibebar-container {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  flex-direction: column;
+  height: 4.3rem;
+  width: 4.3rem;
+  border-radius: 100%;
+  background-color: white;
+  border: none;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.sibebar-container[data-isOpen='true'] {
+  padding-top: 1.5rem;
+  height: fit-content;
+  border-radius: 2rem;
+}
+
+.icon-button {
+  width: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.icon-button svg {
+  fill: currentColor;
+  width: 3rem;
+  color: #4e54c8;
+}
+
+.icon-button-active {
+  width: 100%;
+  background: #4e54c8;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.icon-button-active svg {
+  fill: currentColor;
+  color: white;
+  width: 2rem;
+}

@@ -1,0 +1,45 @@
+@keyframes text-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.heading {
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 400;
+  margin-top: 2rem;
+  text-align: center;
+  display: block;
+}
+
+.intro-para {
+  font-size: 2rem;
+  color: white;
+  margin-top: 2rem;
+  text-align: justify;
+  text-justify: distribute;
+  line-height: 3.5rem;
+}
+
+.download-cv {
+  font-size: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  border: none;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+  margin-top: auto;
+  color: #4e54c8;
+  margin-bottom: 4rem;
+}
+
+.download-cv svg {
+  width: 2rem;
+  fill: currentColor;
+}

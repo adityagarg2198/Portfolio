@@ -1,0 +1,10 @@
+.chip {
+  width: fit-content;
+  padding: 0.3rem 1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #4e54c8;
+  background-color: white;
+  border-radius: 2rem;
+  text-align: center;
+}
