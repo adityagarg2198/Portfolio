@@ -37,6 +37,7 @@
   margin-top: auto;
   color: #4e54c8;
   margin-bottom: 4rem;
+  cursor: pointer;
 }
 
 .download-cv svg {

@@ -1,6 +1,6 @@
 .content-wrapper {
-  width: 70rem;
-  height: 50rem;
+  width: fit-content;
+  height: fit-content;
   background: #8f94fb;
   border: 1.3rem solid white;
   border-top-right-radius: 2rem;

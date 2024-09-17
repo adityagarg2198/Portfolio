@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material';
+import { Stack, useMediaQuery, useTheme } from '@mui/material';
 import Background from './Components/Background/Background.component';
 import ContentWrapper from './Components/ContentWrapper/ContentWrapper.component';
 import ImageCard from './Components/ImageCard/ImageCard.component';
@@ -12,6 +12,8 @@ import Skills from './Pages/Skills/Skills.page';
 
 const App = () => {
   const { page } = usePortfolioContext();
+  const { breakpoints } = useTheme();
+  const isMobile = useMediaQuery(breakpoints.down('md'));
 
   const renderPage = () => {
     switch (page) {
@@ -40,7 +42,7 @@ const App = () => {
       <Stack
         justifyContent={'center'}
         alignItems={'center'}
-        direction={'row'}
+        direction={isMobile ? 'column' : 'row'}
         maxWidth={'100rem'}
         margin={'0 auto'}
         bgcolor={'transparent'}>

@@ -217,7 +217,6 @@ const Contact = () => {
               severity='success'
               variant='filled'
               sx={{
-                color: '#4e54c8',
                 fontSize: '1.4rem',
                 padding: '0.5rem 1rem',
               }}>

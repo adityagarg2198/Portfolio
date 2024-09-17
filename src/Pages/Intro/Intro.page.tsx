@@ -46,6 +46,14 @@ const AnimatedText: FC<AnimatedTextProps> = ({ text }) => {
   );
 };
 
+const downloadResume = () => {
+  const link = document.createElement('a');
+  link.href =
+    'https://drive.google.com/file/d/1bk522dGTNEIyfJukolinEX2_G4r2rD7F/view?usp=sharing';
+  link.download = 'Aditya_Garg_SDE.pdf';
+  link.click();
+};
+
 const Intro = () => {
   return (
     <AnimatePresence mode='wait'>
@@ -68,7 +76,7 @@ const Intro = () => {
           tackling challenges with fresh perspectives, transforming ideas into
           reality. I'm constantly seeking new ways to push boundaries and build
           exceptional software experiences.`}></AnimatedText>
-          <button className='download-cv'>
+          <button className='download-cv' onClick={downloadResume}>
             Download
             <svg
               xmlns='http://www.w3.org/2000/svg'

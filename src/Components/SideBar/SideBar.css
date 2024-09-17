@@ -9,7 +9,7 @@
   border-radius: 100%;
   background-color: white;
   border: none;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  box-shadow: rgba(10, 9, 16, 0.15) 0px 48px 100px 0px;
 }
 
 .sibebar-container[data-isOpen='true'] {
@@ -46,4 +46,19 @@
   fill: currentColor;
   color: white;
   width: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .sibebar-container{
+    transform: rotate(90deg) !important;
+  }
+
+  .icon-button {
+    transform: rotate(270deg) !important;
+  }
+
+  .icon-button-active {
+    transform: rotate(270deg) !important;
+  }
+  
 }
