@@ -107,7 +107,12 @@ const Contact = () => {
         transition={{ duration: 0.8 }}
         style={{ height: '100%' }}>
         <Stack
-          sx={{ height: '100%', transform: 'translateZ(0px)', flexGrow: 1 }}>
+          sx={{
+            height: '100%',
+            transform: 'translateZ(0px)',
+            flexGrow: 1,
+            gap: 2,
+          }}>
           <Stack
             flexDirection={'row'}
             justifyContent={'space-between'}
@@ -147,7 +152,7 @@ const Contact = () => {
           </Stack>
           <Card
             sx={{
-              width: '65%',
+              width: '95%',
               height: 'fit-content',
               padding: '3rem',
               display: 'flex',

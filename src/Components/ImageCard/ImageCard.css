@@ -1,6 +1,8 @@
 .image-card-container {
-  height: 60rem;
-  width: 35rem;
+  height: 55rem;
+  max-width: 30rem;
+  width: 30rem;
+  min-width: 30rem;
   background-color: white;
   padding-bottom: 1rem;
   border-radius: 3.5rem;
